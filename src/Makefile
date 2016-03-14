@@ -58,7 +58,7 @@ else
     LDFLAGS += -rdynamic
 endif
 
-CXXFLAGS += -std=c++14 -g -Wall -Wno-reorder -Wno-sign-compare -Wno-address
+CXXFLAGS += -std=gnu++14 -g -Wall -Wno-reorder -Wno-sign-compare -Wno-address
 
 all : kak
 kak : $(objects)
